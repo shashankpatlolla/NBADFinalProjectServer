@@ -14,7 +14,7 @@ app.use(compression());
 app.use(cors());
 app.use(bodyParser.json());
 
-const url ='mongodb://127.0.0.1:27017/NBADProject'
+const url ='mongodb+srv://spatloll:Nbadproject11@nbadfinalproject.mc4y2zh.mongodb.net/'
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a User schema
