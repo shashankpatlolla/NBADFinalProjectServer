@@ -14,8 +14,8 @@ app.use(compression());
 app.use(cors());
 app.use(bodyParser.json());
 
-//const url ='mongodb+srv://spatloll:Nbadproject11@nbadfinalproject.mc4y2zh.mongodb.net/'
-//mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
+const url ='mongodb+srv://spatloll:Nbadproject11@nbadfinalproject.mtk4535.mongodb.net/'
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a User schema
 const userSchema = new mongoose.Schema({
